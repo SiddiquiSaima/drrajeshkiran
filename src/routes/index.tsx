@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import doctorImg from "@/assets/dr-rajesh-kiran.jpg";
+import doctorAsset from "@/assets/dr-rajesh-kiran.png.asset.json";
+const doctorImg = doctorAsset.url;
 import {
   Phone, MessageCircle, MapPin, Mail, Instagram, Calendar, ChevronDown,
   Stethoscope, Activity, Droplets, HeartPulse, Microscope, Pill, ShieldCheck,
