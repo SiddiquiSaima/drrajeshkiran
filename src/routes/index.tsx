@@ -313,7 +313,7 @@ function TrustStrip() {
           {items.map((it) => (
             <div key={it.label} className="flex items-center gap-3">
               <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-primary-soft text-primary">
-                <it.icon className="h-4.5 w-4.5" />
+                <it.icon className="h-[18px] w-[18px]" />
               </span>
               <span className="text-sm font-medium text-foreground/80">{it.label}</span>
             </div>
@@ -557,7 +557,7 @@ function Guidance() {
               <ul className="mt-4 space-y-2.5">
                 {g.points.map((p) => (
                   <li key={p} className="flex items-start gap-2.5 text-sm text-foreground/80">
-                    <CheckCircle2 className="h-4.5 w-4.5 text-accent shrink-0 mt-0.5" />
+                    <CheckCircle2 className="h-[18px] w-[18px] text-accent shrink-0 mt-0.5" />
                     <span>{p}</span>
                   </li>
                 ))}
@@ -1026,7 +1026,7 @@ function FloatingActions() {
       <a
         href={`tel:${PHONE}`}
         aria-label="Call clinic"
-        className="md:hidden grid h-13 w-13 h-[52px] w-[52px] place-items-center rounded-full bg-primary text-primary-foreground shadow-[var(--shadow-elevated)] hover:scale-105 transition"
+        className="md:hidden grid h-[52px] w-[52px] place-items-center rounded-full bg-primary text-primary-foreground shadow-[var(--shadow-elevated)] hover:scale-105 transition"
       >
         <Phone className="h-5 w-5" />
       </a>
