@@ -510,7 +510,7 @@ function About() {
           <div className="mt-4 rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)] grid grid-cols-2 gap-4 text-sm">
             <div>
               <div className="text-xs text-muted-foreground">Reg. Number</div>
-              <div className="font-semibold text-primary">KMC / placeholder</div>
+              <div className="font-semibold text-primary">KMC 100542</div>
             </div>
             <div>
               <div className="text-xs text-muted-foreground">Languages</div>
