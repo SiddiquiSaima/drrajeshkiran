@@ -29,6 +29,10 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Dr. Rajesh Kiran K V | Expert Kidney Care | Nephrologist in Bangalore" },
       {
+        name: "google-site-verification",
+        content: "49y8oMTQ_QemzjQb5kmTGd1odN5A8cIXANWxNO10MCQ",
+      },
+      {
         name: "description",
         content:
           "Consult Dr. Rajesh Kiran K V, Consultant Nephrologist and Kidney Transplant Physician in Bangalore. Expert care for CKD, dialysis, kidney transplant, hypertension, diabetic kidney disease, and kidney-related conditions.",
